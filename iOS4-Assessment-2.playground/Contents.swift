@@ -54,40 +54,78 @@ print("Hello " + "\(fullName)")
 
 /*
 ints are whole positive or negative numbers
-floats are specific numbers with decimals; typically more exact than doubles
-doubles are fractions with decimals
+floats are specific numbers with decimals
+doubles are fractions with decimals; typically more exact than doubles
 */
 
 // 10. Write a single line comment reminding yourself
 //    of the action item to submit this homework.
 
+//reminder commit
+
 // 11. Declare an optional String called religion
 //     and do not provide a value
 
+var religion:String?
+
 // 12. Declare an optional variable for an hourly rate
 //     and set it equal to a dollar and cents amount
+
+var hourlyRate:Double? = 7.50
 
 // 13. Print out the hourly rate to the console using
 //     String interpolation, making sure it does not 
 //     show "Optional(__)" in the output.
 
+print(hourlyRate!)
+
 // 14. Using the variable from #3, write a conditional
 //     that prints "Hello!" to the console if it is day
 //     and "Goodnight!" to the console if it is night
+
+if isDayTime == true {
+    print("Hello!")
+} else {
+    print("Goodnight!")
+}
 
 // 15. Using the variable from #2, write a conditional
 //     that says "too short" if it is less than an hour,
 //     "too long" if it is more than two hours, and
 //     "just right" if it is between the two
 
+if movieRunTime > 120 {
+    print("too long") }
+else if movieRunTime <= 60 {
+    print("too short")
+}
+else {
+    print("just right")
+}
+
+
 // 16. Create two constants a and b and set them equal 
 //     to 5 and 7, respectively.
 
+let a:Double = 5
+let b:Double = 7
+
 // 17. Create a variable sum that computes the sum from #16
+
+var sum = a + b
 
 // 18. Create a variable difference that computes a minus b.
 
+var difference = a - b
+
 // 19. Create a variable product that computes a times b.
+
+var product = a * b
 
 // 20. Create a variable quotient that computes a divided
 //     by b.
+
+var quotient:Double = a / b
+
+
+

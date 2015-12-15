@@ -6,30 +6,57 @@
 // 1. Write a variable to hold the name of a dog and
 //    set its value to a dog's name
 
+var dogName = "Lassie"
+
 // 2. Write a variable to hold the duration of a movie
 //    in minutes and set its value
+
+var movieRunTime:Double = 120
 
 // 3. Write a variable to hold whether it is daytime
 //    and set it to reflect that it is nighttime
 
+var isDayTime = false
+
 // 4. Write a constant to store PI (3.14159)
 
+let pi:Double = 3.14159
+
 // 5. Write a constant to store your favorite holiday
+
+let myFavoriteHoliday = "Christmas Day"
 
 // 6. Print out a message to the console saying 
 //    "My favorite holiday is ___" 
 //    (fill in the blank using the variable from #5)
 
+print("My favorite holiday is \(myFavoriteHoliday).")
+
+
 // 7. Store your first and last names in constants.
 //    Use String concatenation to store your full
 //    name in a constant called name
+
+let firstName = "James"
+let lastName = "Nelson"
+
+var fullName = firstName + " " + lastName
 
 // 8. Use String interpolation to write a message
 //    greeting yourself, i.e. "Hello ____ _____"
 //    using the name variable from #7
 
+print("Hello " + "\(fullName)")
+
+
 // 9. Write a multiline comment explaining the
 //    difference between ints, floats, and doubles
+
+/*
+ints are whole positive or negative numbers
+floats are specific numbers with decimals; typically more exact than doubles
+doubles are fractions with decimals
+*/
 
 // 10. Write a single line comment reminding yourself
 //    of the action item to submit this homework.

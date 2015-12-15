@@ -55,13 +55,13 @@ print("Hello " + "\(fullName)")
 /*
 ints are whole positive or negative numbers
 floats are specific numbers with decimals
-doubles are fractions with decimals; typically more exact than doubles
+doubles are fractions with decimals; typically more exact than floats
 */
 
 // 10. Write a single line comment reminding yourself
 //    of the action item to submit this homework.
 
-//reminder commit
+//reminder commit then Pull Request
 
 // 11. Declare an optional String called religion
 //     and do not provide a value
@@ -96,7 +96,7 @@ if isDayTime == true {
 
 if movieRunTime > 120 {
     print("too long") }
-else if movieRunTime <= 60 {
+else if movieRunTime < 60 {
     print("too short")
 }
 else {
